@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import useTitle from "../useTitle";
 const ErrorScreen = () => {
   useTitle("Pagina non trovata");
-  return (<Wrapper>
+  return <Wrapper>
     <h3>Pagina non trovata</h3>
     <Lottie options={
       {
@@ -19,13 +19,13 @@ const ErrorScreen = () => {
         }
       }
     }
-    width={500}
+    width={250}
     height={500}
     />
     <Link to='/' className="btn btn-primary">
       Torna in home
     </Link>
-  </Wrapper>);
+  </Wrapper>;
 };
 
 const Wrapper = styled.section`
