@@ -107,6 +107,8 @@ const SingleCocktailScreen = () => {
                             <p className="info">{el.qty} {el.istruzione}</p>
                           </li>
                         )
+                      } else {
+                        return null
                       }
                     })
                   }

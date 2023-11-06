@@ -489,6 +489,7 @@ HERO STYLE
   display: grid;
   height: 100%;
   align-items: center;
+  overflow: hidden;
 }
 
 .home-hero-text {
