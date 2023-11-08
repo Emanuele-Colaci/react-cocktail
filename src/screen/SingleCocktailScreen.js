@@ -97,7 +97,7 @@ const SingleCocktailScreen = () => {
               </div>
               <hr/>
               <div className="spacer">
-                <h4>Ingrediendi:</h4>
+                <h4>Ingredienti:</h4>
                 <ul className="instruction-list">
                   {
                     strInstructionsList.map((el, index) => {
